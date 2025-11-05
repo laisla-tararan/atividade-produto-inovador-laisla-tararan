@@ -16,7 +16,9 @@ h1 {
   font-weight: 600;
   font-style: normal;
   font-size: 3rem;
-  color:#116c2c
+  color:#116c2c;
+  text-align: center;
+  background-color: #c8efd4;
 }
 
 html {
@@ -93,4 +95,28 @@ a:hover{
 
 img{
     max-width: 100%;
+}
+
+
+#galeria {
+    text-align: center;
+}
+
+#garantia {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagem_1 {
+    display: block;
+    margin: auto;
+}
+
+main > #especificacoes {
+    text-align: center;
+}
+
+#hero {
+    margin: 10px
 }
