@@ -1,0 +1,96 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  background-color: #f3ede4;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3rem;
+  color:#116c2c
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+table {
+    border: 1px solid black;
+    width: 500px;
+    border-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-spacing: 2px;
+}
+
+tbody > tr:nth-child(even) {
+    color: #0d54bf;
+}
+
+th{
+    padding: 5px;
+    border: 1px solid black;
+    background-color:#87e2a2;
+}
+
+.titulo{
+    color:#0c9234;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+}
+
+#buttom {
+    background-color:#b6dcc1;
+    color:#116c2c
+}
+
+header nav a {
+    color:#093e19;
+    text-decoration: none;
+    padding: 0rem;
+}
+
+ul li a {
+    color:#093e19;
+}
+
+main > section {
+    color:#033613;
+}
+
+section + aside {
+    color:#033613;
+}
+
+input[type="email"]{
+    background-color: #b6dcc1;
+}
+
+a:hover{
+    color:rgb(29, 5, 126);
+}
+
+#hero > h2::first-letter {
+    font-size: 2rem;
+}
+
+img{
+    max-width: 100%;
+}
